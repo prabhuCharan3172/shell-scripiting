@@ -1,3 +1,3 @@
 #!/bin/bash
 echo hello world
-echo -e "This is a \n number"
+echo -e "[\e31mThis is a\e[0m \n number"
