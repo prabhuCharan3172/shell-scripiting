@@ -11,6 +11,9 @@ DATE=$(date +%F)
 echo -e "todays date is $DATE"
 echo 0= $0
 echo 1= $1
+echo 2= $2
 echo "* = $*"
 echo "@= $@"
 echo "#= $#"
+echo -e "your name is \n$1"
+echo -e "your age is \n$2"
