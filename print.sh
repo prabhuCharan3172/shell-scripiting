@@ -8,4 +8,9 @@ echo value of b =${b}
 c=(100 200)
 echo -e "value of c =${c[0]}"
 DATE=$(date +%F)
-echo todays date is $DATE
+echo -e "todays date is $DATE"
+echo $0
+echo $1
+echo "* = $*"
+echo "@= $@"
+echo "#= $#"
