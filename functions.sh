@@ -4,5 +4,5 @@ function abc() {
   a=$1
 
 }
-abc
+abc $1
 echo -e "My name is $a"
